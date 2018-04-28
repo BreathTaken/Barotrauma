@@ -33,9 +33,9 @@ namespace Barotrauma
             {
                 ClearFolder(tempPath, new string[] { GameMain.GameSession.Submarine.FilePath });
             }
-            catch (Exception e)
+            catch
             {
-                DebugConsole.ThrowError("Error while saving", e);
+
             }
 
             try
